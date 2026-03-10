@@ -1,7 +1,7 @@
 import React,{ useState, useRef } from "react";
 import ResumePreview from "../components/ResumePreview.jsx";
 
-const API = "http://localhost:5000/api/v1/upload-analyze";
+const API = "https://ai-resume-backend-ya4p.onrender.com/api/v1/upload-analyze";
 
 function ScoreRing({ score }) {
   const r = 48, c = 2*Math.PI*r;
