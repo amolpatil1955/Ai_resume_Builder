@@ -1,27 +1,6 @@
-# dependencies
-node_modules/
-
-# production build
-dist/
-build/
-
-# env files
+node_modules
 .env
-.env.local
-.env.development
-.env.production
-
-# logs
-*.log
-npm-debug.log*
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# editor
-.vscode/
-.idea/
-
-# cache
-.cache
+backend/.env
+frontend/.env
+dist
+build
