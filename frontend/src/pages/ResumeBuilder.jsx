@@ -7,7 +7,7 @@ import {
 } from "react-icons/fi";
 import { HiSparkles } from "react-icons/hi";
 
-const API   = "http://localhost:5000/api/v1/build";
+const API   = "https://ai-resume-backend-ya4p.onrender.com/api/v1/build";
 const STEPS = [
   { label:"Personal",   icon:<FiUser size={15} /> },
   { label:"Experience", icon:<FiBriefcase size={15} /> },
