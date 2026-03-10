@@ -17,7 +17,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5000"],
+    origin: ["https://ai-resume-builder-fronted.onrender.com", "http://localhost:5000"],
     credentials: true,
   }),
 );
